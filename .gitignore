@@ -1,0 +1,69 @@
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración del usuario
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Archivos de compilación
+bin/
+obj/
+out/
+
+# Archivos de depuración
+*.log
+*.vspscc
+*.vssscc
+
+# Publicación y despliegue
+.publish/
+*.Publish.xml
+
+# Configuración y archivos de entorno
+appsettings.*.json
+secrets.json
+.env
+
+# Archivos generados por Visual Studio/VSCode
+.vs/
+*.code-workspace
+
+# Archivos relacionados con paquetes NuGet
+*.nupkg
+packages/
+project.lock.json
+.nuget/
+
+# Archivos temporales y de caché
+*.pidb
+*.tmp
+*.bak
+*.swp
+*.swo
+*.userprefs
+
+# Configuración específica del IDE
+.idea/
+*.vscode/
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+
+# Archivos relacionados con Docker
+docker-compose.override.yml
+**/Dockerfile.*
+
+# Archivos relacionados con el sistema de CI/CD
+*.dbmdl
+*.jfm
+testResults/
+
+# Configuración de depuración en Mac/Linux
+*.mdb
+*.opendb
+
+.pgdata
+docker-compose.yml
